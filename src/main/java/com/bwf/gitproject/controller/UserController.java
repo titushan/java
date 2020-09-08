@@ -15,4 +15,10 @@ public class UserController {
         return "用户管理";
     }
 
+    @RequestMapping("/add")
+    @ResponseBody
+    public String add(){
+        return "添加用户";
+    }
+
 }
