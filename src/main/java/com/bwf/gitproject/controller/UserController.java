@@ -21,4 +21,9 @@ public class UserController {
         return "添加用户";
     }
 
+    @RequestMapping("/update")
+    @ResponseBody
+    public String update(){
+        return "修改用户";
+    }
 }
