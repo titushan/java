@@ -21,4 +21,9 @@ public class UserController {
         return "添加用户";
     }
 
+    @RequestMapping("/save")
+    @ResponseBody
+    public String save(){
+        return "添加用户执行";
+    }
 }
